@@ -1,0 +1,48 @@
+html { 
+    background: url(wildness-4.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.con{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+    border-left: 10px ridge black;
+    border-right: 1px groove black;
+    border-top: 1px groove black;
+    border-bottom: 1px groove black;
+    
+   
+    text-align: center;
+    margin:20px auto 15px auto;
+    width: 50%;
+    padding: 1px;
+
+    background-image: linear-gradient(to right, rgba(235, 235, 235) , rgba(119, 119, 119));
+
+    
+    
+
+}
+
+img{
+    width: 450px;
+     height: 300px;
+     margin: 4px;
+     transition: all 1s;
+     
+    
+}
+
+img:hover{
+    transform: scale(1.2);
+}
